@@ -1,0 +1,17 @@
+package components
+
+templ Base() {
+	<html>
+		<head>
+			<meta charset="UTF-8"/>
+			<script src="https://unpkg.com/htmx.org@2.0.0"></script>
+			<link href="/static/css/output.css" rel="stylesheet"/>
+			<title>HTMX + Go + Templ + TailwindCSS</title>
+		</head>
+		<body>
+			<main>
+				{ children... }
+			</main>
+		</body>
+	</html>
+}
